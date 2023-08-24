@@ -1,8 +1,5 @@
 <template>
-  <div
-    :class="$style.header"
-    class="hidden sm:flex sm:justify-between bg-red-200"
-  >
+  <div :class="$style.header" class="hidden sm:flex sm:justify-between">
     <div
       class="hover:border-primary hover:border-b-4 hover:-mb-[4px] hover:scale-125 transition-transform"
     >
