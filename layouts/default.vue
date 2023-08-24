@@ -1,21 +1,9 @@
 <template>
-  <div :class="$style.layout">
-    <div :class="windowWidth < 768 ? 'mt-[6rem]' : 'margin-top: 0 '">
-      <navDrawer @drawerstate="drawerState" @hidedrawer="hideDrawer"></navDrawer>
-    </div>
-    <div v-if="hideDrawerTrue">
-      <navHeader></navHeader>
-    </div>
-    <div
-      :class="
-        drawerStateOpen ? [$style.routerview] : [$style.routerview_closed]
-      "
-    ></div>
-  </div>
-
   <div>
-    <slot> </slot>
+    <navDrawer @drawerstate="drawerState" @hidedrawer="hideDrawer"></navDrawer>
+    <navHeader></navHeader>
   </div>
+  <slot> </slot>
 </template>
 
 <script setup>
@@ -38,7 +26,7 @@ function drawerState(value) {
 }
 
 function hideDrawer(value) {
-  console.log('hidedrawer', value)
+  console.log("hidedrawer", value);
   hideDrawerTrue.value = value;
 }
 

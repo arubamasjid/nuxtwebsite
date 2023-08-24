@@ -1,6 +1,7 @@
 <template>
   <div
-    :class="hideDrawer ? 'opacity-0' : [$style.menu_icon]"
+    :class="$style.menu_icon"
+    class="opacity-100 sm:opacity-0 sm:pointer-events-none"
     @click="toggleDrawer"
   ></div>
   <div
@@ -10,13 +11,35 @@
     ]"
   >
     <div :class="$style.links">
-      <div>1</div>
-      <div>1</div>
-      <div>1</div>
-      <div>1</div>
-      <div>1</div>
+      <div
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+      >
+        Home
+      </div>
+      <div
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+      >
+        Events
+      </div>
+      <div
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+      >
+        Learn
+      </div>
+      <div
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+      >
+        Donate
+      </div>
+      <div
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+      >
+        Login
+      </div>
       <div @click="toggleDrawer">
-        <div></div>
+        <div
+          class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg hover:scale-125 transition-transform"
+        ></div>
       </div>
     </div>
   </div>
@@ -58,10 +81,11 @@ onMounted(() => {
 
 <style module>
 .drawer {
-  background-color: aquamarine;
+  @apply bg-slate-200;
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 .drawer_open {
   display: flex;
@@ -92,6 +116,7 @@ onMounted(() => {
   position: absolute;
   left: 25px;
   top: 20px;
+  z-index: 100;
 }
 
 .menu_icon:hover {
@@ -101,7 +126,6 @@ onMounted(() => {
 .links {
   padding: 20px;
   padding-top: 60px;
-  border: 1px solid red;
 }
 
 .links div {
@@ -110,7 +134,7 @@ onMounted(() => {
 
 .links > div:last-child {
   position: absolute;
-  bottom: 0px;
+  bottom: 50px;
   left: 0px;
   padding-left: 120px;
   padding-right: 120px;
@@ -125,7 +149,6 @@ onMounted(() => {
 
 .links > div:last-child:hover {
   border-bottom-right-radius: 10px;
-  outline: 2px solid aqua;
   cursor: pointer;
 }
 </style>

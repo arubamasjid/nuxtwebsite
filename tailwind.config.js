@@ -14,7 +14,11 @@ module.exports = {
       s: ["Lora", "serif"],
       p: ["Inter", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      screens: {
+        xs: "480px",
+      },
+    },
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography")],
   daisyui: {

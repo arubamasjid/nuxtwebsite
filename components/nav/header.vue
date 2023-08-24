@@ -1,10 +1,33 @@
 <template>
-  <div :class="$style.header" class="bg-red-200">
-    <div>Home</div>
-    <div>Events</div>
-    <div>Learn</div>
-    <div>Donate</div>
-    <div>Login</div>
+  <div
+    :class="$style.header"
+    class="hidden sm:flex sm:justify-between bg-red-200"
+  >
+    <div
+      class="hover:border-primary hover:border-b-4 hover:-mb-[4px] hover:scale-125 transition-transform"
+    >
+      Home
+    </div>
+    <div
+      class="hover:border-primary hover:border-b-4 hover:-mb-[4px] hover:scale-125 transition-transform"
+    >
+      Events
+    </div>
+    <div
+      class="hover:border-primary hover:border-b-4 hover:-mb-[4px] hover:scale-125 transition-transform"
+    >
+      Learn
+    </div>
+    <div
+      class="hover:border-primary hover:border-b-4 hover:-mb-[4px] hover:scale-125 transition-transform"
+    >
+      Donate
+    </div>
+    <div
+      class="hover:border-primary hover:border-b-4 hover:-mb-[4px] hover:scale-125 transition-transform"
+    >
+      Login
+    </div>
   </div>
 </template>
 
@@ -14,8 +37,6 @@ console.log("header rendered");
 
 <style module>
 .header {
-  display: flex;
-  justify-content: space-between;
   padding: 2rem 2rem 2rem 20vw;
 }
 
