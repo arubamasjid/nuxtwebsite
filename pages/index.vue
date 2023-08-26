@@ -1,8 +1,21 @@
 <template>
   <div class="sm:-mt-[6.5rem]">
     <div
-      class="h-fit xs:h-[100vh] pt-[15vh] sm:pt-[18vh] md:pt-[21vh] lg:pt-[24vh] pb-[10vh] p-6 bg-[url('/images/hero-portrait.jpg')] bg-cover bg-no-repeat md:bg-[url('/images/hero.jpg')] md:bg-cover md:bg-center flex flex-col"
+      class="h-fit xs:h-[100vh] pt-[15vh] sm:pt-[18vh] md:pt-[21vh] lg:pt-[24vh] pb-[10vh] flex flex-col"
     >
+      <picture>
+        <source
+          srcset="/images/hero-portrait.jpg"
+          media="(max-width: 768px)"
+          class="absolute top-0 left-0 w-[100] h-[100%] z-[-99]"
+        />
+        <img
+          src="/images/hero.jpg"
+          alt="hero"
+          width="100%"
+          class="absolute top-0 z-[-99] w-[100vw] h-[100%]"
+        />
+      </picture>
       <div class="backdrop-blur-sm">
         <div
           class="flex h-fit w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-5xl xs:text-6xl text-primary text-center"
