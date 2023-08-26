@@ -63,9 +63,8 @@
         <div
           class="card bg-primary mt-8 md:mr-4 md:ml-4 shadow-xl w-[75vw] sm:max-w-sm max-h-[400px] self-center"
         >
-          <figure>
-            <img src="/images/edu.svg" />
-          </figure>
+          <img src="/images/edu.svg" loading="lazy" />
+
           <div class="card-body">
             <div class="card-title justify-center">Educational Activities</div>
             <p class="text-center">Educational activities</p>
@@ -75,9 +74,7 @@
         <div
           class="card bg-primary mt-8 w-[75vw] sm:max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
         >
-          <figure>
-            <img src="/images/social.svg" />
-          </figure>
+          <img src="/images/social.svg" loading="lazy" />
           <div class="card-body">
             <div class="card-title justify-center">Social Activities</div>
             <p class="text-center">Social Activities</p>
@@ -87,9 +84,7 @@
         <div
           class="card bg-primary mt-8 w-[75vw] sm:max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
         >
-          <figure>
-            <img src="/images/dawah.svg" />
-          </figure>
+          <img src="/images/dawah.svg" loading="lazy" />
           <div class="card-body">
             <div class="card-title justify-center">
               Progressive da'wah and culture
@@ -101,9 +96,8 @@
         <div
           class="card bg-primary mt-8 w-[75vw] sm:max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
         >
-          <figure>
-            <img src="/images/community-service.svg" />
-          </figure>
+          <img src="/images/community-service.svg" loading="lazy" />
+
           <div class="card-body">
             <div class="card-title justify-center">Help to those in need</div>
             <p class="text-center">Community service to those in need</p>
