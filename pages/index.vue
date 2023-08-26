@@ -5,20 +5,20 @@
     >
       <div class="backdrop-blur-sm">
         <div
-          class="flex h-fit w-[90vw] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-6xl text-primary text-center"
+          class="flex h-fit w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-5xl xs:text-6xl text-primary text-center"
         >
           رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا
           مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ
         </div>
         <div
-          class="flex h-fit w-[90vw] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-3xl text-primary text-center"
+          class="flex h-fit w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-2xl xs:text-3xl text-primary text-center"
         >
           " They say, Our Lord! Do not let our hearts deviate after you have
           guided us. Grant us Your mercy. You are indeed the Giver of all
           bounties. "
         </div>
         <div
-          class="flex h-fit w-[90vw] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-16 pb-8 pl-4 pr-2 mx-auto text-5xl font-bold text-primary justify-center md:break-all"
+          class="flex h-fit w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-16 pb-8 pl-4 pr-2 mx-auto text-3xl xs:text-5xl font-bold text-primary justify-center md:break-all"
         >
           Stichting Aruba Islamic Foundation
         </div>
@@ -30,7 +30,7 @@
       <div class="hero-content flex-col lg:flex-row">
         <img
           src="/images/history-img.jpeg"
-          class="max-w-sm md:max-w-md rounded-lg shadow-2xl lg:mr-8"
+          class="max-w-[75vw] xs:max-w-xs md:max-w-md rounded-lg shadow-2xl lg:mr-8"
         />
         <p class="p-4 text-lg font-semibold leading-10">
           The population of Muslims has been increasing with each year in Aruba,
@@ -45,10 +45,10 @@
       <div class="text-3xl font-bold text-center m-6">Our Services</div>
 
       <div
-        class="flex flex-col w-[80%] mb-8 gap-4 mx-auto md:flex-row md:flex-wrap md:w-[100%] md:justify-center"
+        class="flex flex-col w-[50%] mb-8 gap-4 mx-auto md:flex-row md:flex-wrap md:w-[100%] md:justify-center"
       >
         <div
-          class="card bg-primary mt-8 md:mr-4 md:ml-4 shadow-xl max-w-sm max-h-[400px] self-center"
+          class="card bg-primary mt-8 md:mr-4 md:ml-4 shadow-xl w-[75vw] sm:max-w-sm max-h-[400px] self-center"
         >
           <figure>
             <img src="/images/edu.svg" />
@@ -60,7 +60,7 @@
         </div>
 
         <div
-          class="card bg-primary mt-8 max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
+          class="card bg-primary mt-8 w-[75vw] sm:max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
         >
           <figure>
             <img src="/images/social.svg" />
@@ -72,7 +72,7 @@
         </div>
 
         <div
-          class="card bg-primary mt-8 max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
+          class="card bg-primary mt-8 w-[75vw] sm:max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
         >
           <figure>
             <img src="/images/dawah.svg" />
@@ -86,7 +86,7 @@
         </div>
 
         <div
-          class="card bg-primary mt-8 max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
+          class="card bg-primary mt-8 w-[75vw] sm:max-w-sm max-h-[400px] md:mr-4 md:ml-4 shadow-xl self-center"
         >
           <figure>
             <img src="/images/community-service.svg" />
