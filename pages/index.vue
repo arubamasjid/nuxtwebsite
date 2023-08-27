@@ -23,7 +23,8 @@
       </picture>
       <div class="flex flex-col pb-16">
         <div
-          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-5xl xs:text-6xl text-accent text-center"
+          :class="$style.arabic"
+          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-5xl xs:text-6xl text-stone-950 text-center"
         >
           رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا
           مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ
@@ -36,7 +37,7 @@
           bounties. "
         </div>
         <div
-          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] sm:pt-48 pt-8 pb-8 pl-4 pr-2 mx-auto text-3xl xs:text-4xl sm:text-5xl font-bold text-accent justify-center md:break-all"
+          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] sm:pt-48 pt-8 pb-8 pl-4 pr-2 mx-auto text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold text-primary justify-center md:break-all"
         >
           Stichting Aruba Islamic Foundation
         </div>
@@ -120,6 +121,14 @@
 import { onMounted, inject } from "vue";
 import { getApps } from "firebase/app";
 
+useSeoMeta({
+  title: "Stichting Aruba Islamic Foundation",
+  ogTitle: "Stichting Aruba Islamic Foundation",
+  description: "This is the website for the Stichting Aruba Islamic Foundation",
+  ogDescription: "Welcome to the Stichting Aruba Islamic Foundation.",
+  ogImage: "/images/hero.jpg",
+});
+
 console.log("home rendered");
 onMounted(() => {
   const { $firebaseApp } = useNuxtApp();
@@ -127,4 +136,8 @@ onMounted(() => {
 });
 </script>
 
-<style module></style>
+<style module>
+.arabic {
+  direction: rtl;
+}
+</style>
