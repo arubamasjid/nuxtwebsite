@@ -24,13 +24,13 @@
       <div class="flex flex-col pb-16">
         <div
           :class="$style.arabic"
-          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-5xl xs:text-6xl text-stone-950 text-center"
+          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-5xl xs:text-6xl text-white text-center"
         >
           رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا
           مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ
         </div>
         <div
-          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-2xl xs:text-3xl text-stone-950 text-center font-semibold italic"
+          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-2xl xs:text-3xl text-white text-center font-semibold italic"
         >
           " They say, Our Lord! Do not let our hearts deviate after you have
           guided us. Grant us Your mercy. You are indeed the Giver of all
