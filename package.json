@@ -21,6 +21,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "adhan": "^4.4.3",
     "firebase": "^10.1.0",
     "firebase-admin": "^11.10.1",
     "pg": "^8.11.2"

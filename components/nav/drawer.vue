@@ -85,7 +85,7 @@ onMounted(() => {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 10;
 }
 .drawer_open {
   display: flex;
@@ -116,7 +116,7 @@ onMounted(() => {
   position: absolute;
   left: 25px;
   top: 20px;
-  z-index: 100;
+  z-index: 10;
 }
 
 .menu_icon:hover {
