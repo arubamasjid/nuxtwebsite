@@ -168,7 +168,7 @@
           <div>
             Learn to pray, <br />
             research islam and more
-            <img src="icons/arrow-right-fill.svg" class="w-8 mx-auto mt-2" />
+            <img src="/icons/arrow-right-fill.svg" class="w-8 mx-auto mt-2" />
           </div>
         </NuxtLink>
 
@@ -179,7 +179,7 @@
           <div>
             Upcoming and past<br />
             Masjid events <br />
-            <img src="icons/arrow-right-fill.svg" class="w-8 mx-auto mt-2" />
+            <img src="/icons/arrow-right-fill.svg" class="w-8 mx-auto mt-2" />
           </div>
         </NuxtLink>
       </div>
