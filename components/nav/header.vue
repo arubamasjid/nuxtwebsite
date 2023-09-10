@@ -1,5 +1,12 @@
 <template>
-  <div :class="$style.header" class="hidden sm:flex pt-sm:justify-between">
+  <div
+    :class="[
+      $style.header,
+      route == '/'
+        ? 'hidden sm:flex p-10 sm:justify-between text-white'
+        : 'opacity-0 flex flex-nowrap sm:opacity-100 p-10 sm:justify-between bg-amber-200 ',
+    ]"
+  >
     <div
       class="hover:-mb-[4px] hover:scale-125 transition-transform text-center"
     >
@@ -33,13 +40,23 @@
     <div
       class="hover:-mb-[4px] hover:scale-125 transition-transform text-center"
     >
+      <NuxtLink to="/about">
+        <span
+          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          >About
+        </span>
+      </NuxtLink>
+    </div>
+    <!-- <div
+      class="hover:-mb-[4px] hover:scale-125 transition-transform text-center"
+    >
       <NuxtLink to="/charity/admin">
         <span
           class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >Charity</span
         >
       </NuxtLink>
-    </div>
+    </div> -->
     <div
       class="hover:-mb-[4px] hover:scale-125 transition-transform text-center"
     >
@@ -50,7 +67,7 @@
         >
       </NuxtLink>
     </div>
-    <div
+    <!-- <div
       class="hover:-mb-[4px] hover:scale-125 transition-transform text-center hover:cursor-pointer"
     >
       <NuxtLink to="/auth/login">
@@ -59,17 +76,26 @@
           >Login</span
         >
       </NuxtLink>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script setup>
 console.log("header rendered");
+const router = ref(useRouter());
+const route = ref();
+
+watchEffect(() => {
+  console.log(router.value.currentRoute.fullPath);
+  route.value = router.value.currentRoute.fullPath;
+  console.log("route", route.value);
+});
 </script>
 
 <style module>
 .header {
   padding: 2rem 2rem 2rem 2rem;
+  z-index: 10;
 }
 
 .header > div {

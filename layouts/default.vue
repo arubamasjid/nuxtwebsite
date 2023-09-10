@@ -3,11 +3,17 @@
     <navDrawer @drawerstate="drawerState" @hidedrawer="hideDrawer"></navDrawer>
     <navHeader></navHeader>
   </div>
+
   <slot> </slot>
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
+
+const route = useRoute();
+useHead({
+  meta: [{ property: "og:title", content: `App Name - ${route.meta.title}` }],
+});
 
 let drawerStateOpen = ref();
 let hideDrawerTrue = ref();
@@ -38,11 +44,6 @@ function getWindowWidth() {
 if (process.client) {
   window.addEventListener("resize", getWindowWidth);
 }
-
-const route = useRoute();
-useHead({
-  meta: [{ property: "og:title", content: `App Name - ${route.meta.title}` }],
-});
 </script>
 
 <style module>

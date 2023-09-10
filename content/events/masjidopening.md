@@ -1,15 +1,6 @@
-# event 1
+# Masjid Opening
 
-Try to put a blank line before...
-
-> This is a blockquote
-
-...and after a blockquote.
-
-- First item
-- Second item
-- Third item
-- Fourth item
+MASJID OPENING 
 
 | Syntax    | Description |
 | --------- | ----------- |

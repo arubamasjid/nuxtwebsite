@@ -12,33 +12,33 @@
   >
     <div :class="$style.links">
       <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
       >
         Home
       </div>
       <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
       >
         Events
       </div>
       <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
       >
         Learn
       </div>
       <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
       >
-        Donate
+        About
       </div>
       <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg"
+        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
       >
-        Login
+        Contact
       </div>
       <div @click="toggleDrawer">
         <div
-          class="hover:border-b-4 hover:-mb-[4px] hover:border-emerald-500 text-lg hover:scale-125 transition-transform"
+          class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg hover:scale-125 transition-transform"
         ></div>
       </div>
     </div>
