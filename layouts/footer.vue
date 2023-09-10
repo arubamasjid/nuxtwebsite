@@ -3,19 +3,23 @@
     <div class="my-auto">
       <p class="text-lg">
         Stichting Aruba Islamic Foundation <br />
-        <p> since 2002 </p>
+        since 2002
       </p>
     </div>
     <div>
       <span class="footer-title">Our Goals</span>
       <NuxtLink class="link link-hover" to="/events"> Islamic events</NuxtLink>
-      <NuxtLink class="link link-hover" to="/education"> Islamic education</NuxtLink>
+      <NuxtLink class="link link-hover" to="/education">
+        Islamic education</NuxtLink
+      >
     </div>
     <div>
       <span class="footer-title">Our Foundation</span>
       <NuxtLink class="link link-hover" to="/about"> About us</NuxtLink>
       <NuxtLink class="link link-hover" to="/contact"> Contact us</NuxtLink>
-      <NuxtLink class="link link-hover" to="charity/admin">Give Charity </NuxtLink>
+      <NuxtLink class="link link-hover" to="charity/admin"
+        >Give Charity
+      </NuxtLink>
     </div>
   </footer>
 </template>

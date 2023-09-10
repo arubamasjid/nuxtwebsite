@@ -2,9 +2,9 @@
   <div>
     <navDrawer @drawerstate="drawerState" @hidedrawer="hideDrawer"></navDrawer>
     <navHeader></navHeader>
-  </div>
 
-  <slot> </slot>
+    <slot> </slot>
+  </div>
 </template>
 
 <script setup>

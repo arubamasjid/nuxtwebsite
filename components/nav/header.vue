@@ -4,7 +4,7 @@
       $style.header,
       route == '/'
         ? 'hidden sm:flex p-10 sm:justify-between text-white'
-        : 'opacity-0 flex flex-nowrap sm:opacity-100 p-10 sm:justify-between bg-amber-200 ',
+        : 'opacity-0 flex flex-nowrap sm:opacity-100 p-10 sm:justify-between text-black ',
     ]"
   >
     <div
