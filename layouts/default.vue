@@ -2,8 +2,6 @@
   <div>
     <navDrawer @drawerstate="drawerState" @hidedrawer="hideDrawer"></navDrawer>
     <navHeader></navHeader>
-
-    <slot> </slot>
   </div>
 </template>
 

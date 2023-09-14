@@ -37,7 +37,7 @@
           bounties. "
         </div>
         <div
-          class="flex w-[100%] pt-8 pb-8 pl-4 pr-2 mx-auto text-4xl sm:text-5xl md:text-6xl font-bold text-primary text-center md:break-all"
+          class="flex w-[100%] pt-8 pb-8 pl-4 pr-2 text-4xl sm:text-5xl md:text-6xl font-bold text-primary md:break-all justify-center text-center"
         >
           Stichting Aruba Islamic Foundation
         </div>
@@ -104,7 +104,7 @@
       </div>
     </div>
 
-    <div class="h-fit p-8 pb-20">
+    <div class="h-fit p-8 pb-20 bg-base-200">
       <div class="text-3xl font-bold text-center m-6">Our Services</div>
 
       <div
@@ -157,35 +157,63 @@
     </div>
 
     <div class="h-fit p-8 pb-20">
-      <div class="text-3xl font-bold text-center m-6 pb-6">Explore Islam</div>
-      <div class="flex flex-col justify-evenly lg:flex-row">
-        <Calendar class="mx-auto mb-8 lg:mb-auto"></Calendar>
+      <div class="text-3xl font-bold text-center m-6 pb-12">Explore Islam</div>
 
-        <NuxtLink
-          to="/education"
-          class="card border-4 border-accent my-auto mx-auto mb-8 lg:mb-auto p-6 shadow-lg font-semibold"
-        >
-          <div>
-            Learn to pray, <br />
-            research islam and more
-            <img src="/icons/arrow-right-fill.svg" class="w-8 mx-auto mt-2" />
-          </div>
-        </NuxtLink>
+      <div class="flex flex-col lg:flex-row justify-center lg:mx-auto lg:p-8">
+        <Calendar
+          class="mb-8 lg:mb-0 mx-auto lg:mx-0 w-[100%] xs:w-[400px] shrink-0"
+        ></Calendar>
 
-        <NuxtLink
-          to="/events"
-          class="card border-4 border-accent my-auto mx-auto mb-8 lg:mb-auto p-6 shadow-lg font-semibold"
-        >
-          <div>
-            Upcoming and past<br />
-            Masjid events <br />
-            <img src="/icons/arrow-right-fill.svg" class="w-8 mx-auto mt-2" />
+        <div class="flex flex-col md:flex-row lg:flex-col lg:ml-8 md:gap-8">
+          <div
+            class="card lg:card-compact lg:card-side h-[50%] max-w-xs lg:max-w-none lg:w-[100%] mb-8 md:mb-0 mx-auto md:ml-auto md:mx-0 shadow-md"
+          >
+            <img
+              src="/images/hero.jpg"
+              loading="lazy"
+              class="xs:max-w-xs shadow-md rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl"
+            />
+            <div class="card-body text-sm">
+              <p class="card-title text-sm">
+                Learn to pray, research Islam and more
+              </p>
+              <p>Content for both kids and adults</p>
+              <div class="card-actions justify-end pt-2">
+                <button class="btn btn-sm text-xs">
+                  Read
+                  <img src="/icons/arrow-right-fill.svg" />
+                </button>
+              </div>
+            </div>
           </div>
-        </NuxtLink>
+
+          <div
+            class="card lg:card-compact lg:card-side h-[50%] max-w-xs lg:max-w-none lg:w-[100%] mx-auto shadow-md md:mr-auto md:mx-0"
+          >
+            <img
+              src="/images/hero.jpg"
+              loading="lazy"
+              class="xs:max-w-xs shadow-md rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl"
+            />
+            <div class="card-body text-sm">
+              <p class="card-title text-sm">Upcoming and past Masjid events</p>
+              <p>
+                Keep updated with activities <br />
+                happening in the Masjid
+              </p>
+              <div class="card-actions justify-end pt-2">
+                <button class="btn btn-sm text-xs">
+                  Browse
+                  <img src="/icons/arrow-right-fill.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <NuxtLayout name="footer"></NuxtLayout>
+    <!-- <NuxtLayout name="footer"></NuxtLayout> -->
   </div>
 </template>
 

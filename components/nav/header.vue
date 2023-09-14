@@ -3,7 +3,7 @@
     :class="[
       $style.header,
       route == '/'
-        ? 'hidden sm:flex p-10 sm:justify-between text-white'
+        ? 'hidden sm:flex sm:justify-between text-white'
         : 'opacity-0 flex flex-nowrap sm:opacity-100 p-10 sm:justify-between text-black ',
     ]"
   >
@@ -12,7 +12,7 @@
     >
       <NuxtLink to="/">
         <span
-          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >Home</span
         >
       </NuxtLink>
@@ -22,7 +22,7 @@
     >
       <NuxtLink to="/events">
         <span
-          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >Events</span
         >
       </NuxtLink>
@@ -32,7 +32,7 @@
     >
       <NuxtLink to="/education">
         <span
-          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >Learn
         </span>
       </NuxtLink>
@@ -42,7 +42,7 @@
     >
       <NuxtLink to="/about">
         <span
-          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >About
         </span>
       </NuxtLink>
@@ -52,7 +52,7 @@
     >
       <NuxtLink to="/charity/admin">
         <span
-          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >Charity</span
         >
       </NuxtLink>
@@ -62,7 +62,7 @@
     >
       <NuxtLink to="/contact">
         <span
-          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >Contact</span
         >
       </NuxtLink>
@@ -72,7 +72,7 @@
     >
       <NuxtLink to="/auth/login">
         <span
-          class="xl:pl-[3vw] xl:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
+          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
           >Login</span
         >
       </NuxtLink>
