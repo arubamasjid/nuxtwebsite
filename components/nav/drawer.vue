@@ -11,31 +11,46 @@
     ]"
   >
     <div :class="$style.links">
-      <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
-      >
-        Home
-      </div>
-      <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
-      >
-        Events
-      </div>
-      <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
-      >
-        Learn
-      </div>
-      <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
-      >
-        About
-      </div>
-      <div
-        class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
-      >
-        Contact
-      </div>
+      <NuxtLink to="/">
+        <div
+          class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
+          @click="toggleDrawer"
+        >
+          Home
+        </div>
+      </NuxtLink>
+      <NuxtLink to="/events">
+        <div
+          @click="toggleDrawer"
+          class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
+        >
+          Events
+        </div>
+      </NuxtLink>
+      <NuxtLink to="/education">
+        <div
+          class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
+          @click="toggleDrawer"
+        >
+          Learn
+        </div>
+      </NuxtLink>
+      <NuxtLink to="/about">
+        <div
+          class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
+          @click="toggleDrawer"
+        >
+          About
+        </div>
+      </NuxtLink>
+      <NuxtLink to="/contact">
+        <div
+          class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg text-center"
+          @click="toggleDrawer"
+        >
+          Contact
+        </div>
+      </NuxtLink>
       <div @click="toggleDrawer">
         <div
           class="hover:border-b-4 hover:-mb-[4px] hover:border-primary text-lg hover:scale-125 transition-transform"

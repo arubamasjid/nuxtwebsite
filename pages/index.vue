@@ -24,20 +24,20 @@
       <div class="flex flex-col">
         <div
           :class="$style.arabic"
-          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-5xl xs:text-6xl text-center text-white"
+          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-3xl xs:text-4xl text-center justify-center text-white"
         >
           رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا
           مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ
         </div>
         <div
-          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-2xl xs:text-3xl text-center font-semibold italic text-white"
+          class="flex w-[90%] md:w-[80vw] lg:w-[75vw] xl:w-[70vw] 2xl:w-[60vw] pt-8 pb-8 pl-4 pr-2 mx-auto text-xl xs:text-2xl text-center font-semibold italic text-white"
         >
           " They say, Our Lord! Do not let our hearts deviate after you have
           guided us. Grant us Your mercy. You are indeed the Giver of all
-          bounties. "
+          bounties. S3, V8."
         </div>
         <div
-          class="flex w-[100%] pt-8 pb-8 pl-4 pr-2 text-4xl sm:text-5xl md:text-6xl font-bold text-primary md:break-all justify-center text-center"
+          class="flex w-[100%] pt-8 pb-8 pl-4 pr-2 text-3xl sm:text-4xl mmd:text-5xl font-bold text-primary md:break-all justify-center text-center"
         >
           Stichting Aruba Islamic Foundation
         </div>
@@ -179,7 +179,10 @@
               </p>
               <p>Content for both kids and adults</p>
               <div class="card-actions justify-end pt-2">
-                <button class="btn btn-sm text-xs">
+                <button
+                  class="btn btn-sm text-xs"
+                  @click="router.push({ path: '/education' })"
+                >
                   Read
                   <img src="/icons/arrow-right-fill.svg" />
                 </button>
@@ -204,7 +207,10 @@
                 happening in the Masjid
               </p>
               <div class="card-actions justify-end pt-2">
-                <button class="btn btn-sm text-xs">
+                <button
+                  class="btn btn-sm text-xs"
+                  @click="router.push({ path: '/events' })"
+                >
                   Browse
                   <img src="/icons/arrow-right-fill.svg" />
                 </button>
@@ -222,6 +228,8 @@
 <script setup>
 import { onMounted, inject } from "vue";
 import { getApps } from "firebase/app";
+
+const router = useRouter();
 
 useSeoMeta({
   title: "Stichting Aruba Islamic Foundation",

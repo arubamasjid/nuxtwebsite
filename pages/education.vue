@@ -492,7 +492,7 @@ const adults = [
     link: "https://youtu.be/9voCVK0EfT8?feature=shared ",
   },
   {
-    title: "Educational Content from Br. Mufti Menk",
+    title: "Educational Content from Mufti Menk",
     link: "https://youtu.be/x84QrnjIu8g?si=VGbVCKdcdHpzZ3nX ",
   },
   {
