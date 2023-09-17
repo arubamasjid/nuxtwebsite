@@ -196,7 +196,9 @@
               class="xs:max-w-xs shadow-md rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl"
             />
             <div class="card-body text-sm">
-              <p class="card-title text-sm">Upcoming and past Masjid events</p>
+              <p class="card-title text-sm">
+                Ongoing, upcoming and past Masjid events
+              </p>
               <p>
                 Keep updated with activities <br />
                 happening in the Masjid
