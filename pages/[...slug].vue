@@ -7,7 +7,7 @@
       >
       <ContentRendererMarkdown
         :value="data"
-        class="prose p-12 mt-12 masjid max-w-none md:w-[60%] mx-auto shadow-xl"
+        class="prose p-12 mt-12 mb-16 masjid max-w-none md:w-[60%] mx-auto shadow-xl"
       >
       </ContentRendererMarkdown>
     </ContentRenderer>

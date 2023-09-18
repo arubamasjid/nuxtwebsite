@@ -1,5 +1,5 @@
 <template>
-  <div>contact</div>
+  <div class="h-screen">contact</div>
 </template>
 
 <script setup></script>

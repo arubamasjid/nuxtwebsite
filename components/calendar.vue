@@ -1,5 +1,5 @@
 <template>
-  <div class="card border-2 border-accent p-6 shadow-xl">
+  <div class="card border-2 border-primary p-6 shadow-xl">
     <div class="text-center text-xl font-semibold mb-6">
       Daily Salat Timings
     </div>
@@ -8,14 +8,14 @@
       <div class="join join-vertical sm:join-horizontal">
         <button
           @click="lastDay"
-          class="btn join-item bg-accent mb-2 sm:mr-2 sm:mb-2"
+          class="btn join-item bg-primary mb-2 sm:mr-2 sm:mb-2"
         >
           <img src="/icons/calendar-backarrow.svg" class="w-6 sm:w-8" />
           <span class="text-xs sm:text-md"> Previous Day</span>
         </button>
         <button
           @click="nextDay"
-          class="btn join-item bg-accent mt-2 sm:ml-2 sm:mt-0"
+          class="btn join-item bg-primary mt-2 sm:ml-2 sm:mt-0"
         >
           <span class="text-xs sm:text-md"> Following Day</span>
           <img src="/icons/calendar-forwardarrow.svg" class="w-6 sm:w-8" />
@@ -30,7 +30,7 @@
 
         <template #fallback>
           <span
-            class="loading loading-spinner text-accent mx-auto my-auto pt-64 w-12"
+            class="loading loading-spinner text-primary mx-auto my-auto pt-64 w-12"
           ></span>
         </template>
 

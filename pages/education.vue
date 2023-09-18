@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="mb-8 w-[95%] md:w-[80%] lg:w-[60%] mx-auto p-4"><Calendar></Calendar></div>
+    <div class="mb-8 w-[95%] md:w-[80%] lg:w-[60%] mx-auto p-4">
+      <Calendar></Calendar>
+    </div>
     <!-- <div>
       <div
         class="text-2xl md:text-3xl font-semibold text-center pt-8 pb-8 px-8"
@@ -140,7 +142,7 @@
       >
         <div
           tabindex="0"
-          class="collapse collapse-open border border-base-300 bg-slate-300 rounded-lg pb-2"
+          class="collapse collapse-open border border-base-300 bg-amber-100 rounded-lg pb-2"
           v-if="Array.isArray(entry.link)"
         >
           <div class="p-4 text-sm font-semibold text-center">
@@ -164,7 +166,7 @@
 
         <NuxtLink :to="entry.link" target="_blank" v-else>
           <button
-            class="btn normal-case w-full h-fit p-4 leading-5 bg-slate-300"
+            class="btn normal-case w-full h-fit p-4 leading-5 bg-amber-100"
           >
             {{ entry.title }} <img src="/icons/arrow-right.svg" />
           </button>
@@ -290,7 +292,7 @@
       </div> -->
     </div>
 
-    <div>
+    <div class="mb-16">
       <div
         class="text-2xl md:text-3xl font-semibold text-center pt-8 pb-8 px-8"
       >
@@ -305,7 +307,7 @@
       >
         <NuxtLink :to="entry.link" target="_blank">
           <button
-            class="btn normal-case w-full h-fit p-4 leading-5 bg-slate-300"
+            class="btn normal-case w-full h-fit p-4 leading-5 bg-amber-100"
           >
             {{ entry.title }} <img src="/icons/arrow-right.svg" />
           </button>

@@ -1,3 +1,8 @@
+---
+description: "This is a sample event"
+date: 2023-10-23
+---
+
 # event 1
 
 Try to put a blank line before...

@@ -166,7 +166,7 @@
 
         <div class="flex flex-col md:flex-row lg:flex-col lg:ml-8 md:gap-8">
           <div
-            class="card lg:card-compact lg:card-side h-[50%] max-w-xs lg:max-w-none lg:w-[100%] mb-8 md:mb-0 mx-auto md:ml-auto md:mx-0 shadow-md"
+            class="card lg:card-compact lg:card-side lg:h-[50%] max-w-xs lg:max-w-none lg:w-[100%] mb-8 md:mb-0 mx-auto md:ml-auto md:mx-0 shadow-md"
           >
             <img
               src="/images/hero.jpg"
@@ -180,18 +180,18 @@
               <p>Content for both kids and adults</p>
               <div class="card-actions justify-end pt-2">
                 <button
-                  class="btn btn-sm text-xs"
+                  class="btn btn-sm btn-primary text-xs"
                   @click="router.push({ path: '/education' })"
                 >
                   Read
-                  <img src="/icons/arrow-right-fill.svg" />
+                  <img src="/icons/arrow-right.svg" />
                 </button>
               </div>
             </div>
           </div>
 
           <div
-            class="card lg:card-compact lg:card-side h-[50%] max-w-xs lg:max-w-none lg:w-[100%] mx-auto shadow-md md:mr-auto md:mx-0"
+            class="card lg:card-compact lg:card-side lg:h-[50%] max-w-xs lg:max-w-none lg:w-[100%] mx-auto shadow-md md:mr-auto md:mx-0"
           >
             <img
               src="/images/hero.jpg"
@@ -208,11 +208,11 @@
               </p>
               <div class="card-actions justify-end pt-2">
                 <button
-                  class="btn btn-sm text-xs"
+                  class="btn btn-sm btn-primary text-xs"
                   @click="router.push({ path: '/events' })"
                 >
                   Browse
-                  <img src="/icons/arrow-right-fill.svg" />
+                  <img src="/icons/arrow-right.svg" />
                 </button>
               </div>
             </div>

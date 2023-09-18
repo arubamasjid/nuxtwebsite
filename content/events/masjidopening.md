@@ -1,6 +1,15 @@
-# Masjid Opening
+---
+description: "Stay posted for the official opening"
+date: 2023-11-23
+---
 
-MASJID OPENING 
+# Masjid Official Opening Event
+
+The Masjid is currently undergoing final preparations to facilitate the grand opening. Closer to the opening, we will announce the official date of the opening ceremony.
+
+We hope everyone can join us in celebrating this historic event and we look forward to the future of the community and our new Masjid.
+
+<!-- MASJID OPENING
 
 | Syntax    | Description |
 | --------- | ----------- |
@@ -12,4 +21,4 @@ MASJID OPENING
 test slot
 #email
 email slot
-::
+:: -->

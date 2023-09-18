@@ -3,8 +3,8 @@
     :class="[
       $style.header,
       route == '/'
-        ? 'hidden sm:flex sm:justify-between text-white'
-        : 'opacity-0 flex flex-nowrap sm:opacity-100 p-10 sm:justify-between text-black ',
+        ? 'hidden pointer-events-none sm:flex sm:justify-between sm:pointer-events-auto text-white'
+        : 'opacity-0 pointer-events-none flex flex-nowrap sm:pointer-events-auto sm:opacity-100 p-10 sm:justify-between text-black ',
     ]"
   >
     <div
@@ -47,16 +47,7 @@
         </span>
       </NuxtLink>
     </div>
-    <!-- <div
-      class="hover:-mb-[4px] hover:scale-125 transition-transform text-center"
-    >
-      <NuxtLink to="/charity/admin">
-        <span
-          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
-          >Charity</span
-        >
-      </NuxtLink>
-    </div> -->
+
     <div
       class="hover:-mb-[4px] hover:scale-125 transition-transform text-center"
     >
@@ -67,16 +58,6 @@
         >
       </NuxtLink>
     </div>
-    <!-- <div
-      class="hover:-mb-[4px] hover:scale-125 transition-transform text-center hover:cursor-pointer"
-    >
-      <NuxtLink to="/auth/login">
-        <span
-          class="sm:pl-[3vw] sm:pr-[3vw] pt-2 pb-2 hover:border-primary hover:border-b-4"
-          >Login</span
-        >
-      </NuxtLink>
-    </div> -->
   </div>
 </template>
 
