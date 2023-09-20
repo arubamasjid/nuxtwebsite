@@ -1,6 +1,8 @@
 # Use a specific Node.js version as the base image
 FROM node:18
 
+ENV NODE_ENV=production
+
 # Set the working directory inside the container
 WORKDIR /src
 
@@ -17,4 +19,5 @@ COPY . .
 EXPOSE 3000
 
 # Define the command to start the Nuxt.js application
-CMD ["npm", "run", "dev"]
+RUN npm run build
+CMD ["node", ".output/server/index.mjs"]
