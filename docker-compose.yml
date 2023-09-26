@@ -5,6 +5,6 @@ services:
     build: .
     ports:
       - "3000:3000"
-    command: npm run dev
-    volumes:
-      - C:\Users\azeem\Desktop\NuxtDockerVol:/src/NuxtDockerVol
+    # command: npm run dev
+    # volumes:
+    #   - C:\Users\azeem\Desktop\NuxtDockerVol:/src/NuxtDockerVol
