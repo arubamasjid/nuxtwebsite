@@ -17,9 +17,9 @@
       <span class="footer-title">Our Foundation</span>
       <NuxtLink class="link link-hover" to="/about"> About us</NuxtLink>
       <NuxtLink class="link link-hover" to="/contact"> Contact us</NuxtLink>
-      <NuxtLink class="link link-hover" to="charity/admin"
+      <!-- <NuxtLink class="link link-hover" to="charity/admin"
         >Give Charity
-      </NuxtLink>
+      </NuxtLink> -->
     </div>
   </footer>
 </template>

@@ -19,7 +19,7 @@
         <div class="card-actions justify-end pt-4">
           <NuxtLink :to="article._path">
             <button class="btn btn-primary btn-sm">
-              Read <img src="/icons/arrow-right.svg" /></button
+              Read <img src="/icons/arrow-right.svg" alt="arrow-right"/></button
           ></NuxtLink>
         </div>
       </div>

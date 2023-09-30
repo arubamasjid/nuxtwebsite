@@ -10,7 +10,7 @@
           @click="lastDay"
           class="btn join-item bg-primary mb-2 sm:mr-2 sm:mb-2"
         >
-          <img src="/icons/calendar-backarrow.svg" class="w-6 sm:w-8" />
+          <img src="/icons/calendar-backarrow.svg" alt="back-arrow" class="w-6 sm:w-8" />
           <span class="text-xs sm:text-md"> Previous Day</span>
         </button>
         <button
@@ -18,7 +18,7 @@
           class="btn join-item bg-primary mt-2 sm:ml-2 sm:mt-0"
         >
           <span class="text-xs sm:text-md"> Following Day</span>
-          <img src="/icons/calendar-forwardarrow.svg" class="w-6 sm:w-8" />
+          <img src="/icons/calendar-forwardarrow.svg" alt="forward-arrow" class="w-6 sm:w-8" />
         </button>
       </div>
     </div>

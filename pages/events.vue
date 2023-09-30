@@ -147,6 +147,13 @@ function sortAll() {
   articles.value = allArticles.value;
   closeFilter();
 }
+
+useSeoMeta({
+  title: "Events by Aruba Islamic Foundation",
+  ogTitle: "Events hosted by Aruba Islamic Foundation",
+  description: "Follow our events blog to stay updated with the events happening in our masjid and community",
+  ogDescription: "Follow our events blog to stay updated with the events happening in our masjid and community",
+});
 </script>
 
 <style scoped>

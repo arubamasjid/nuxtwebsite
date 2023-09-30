@@ -3,129 +3,6 @@
     <div class="mb-8 w-[95%] md:w-[80%] lg:w-[60%] mx-auto p-4">
       <Calendar></Calendar>
     </div>
-    <!-- <div>
-      <div
-        class="text-2xl md:text-3xl font-semibold text-center pt-8 pb-8 px-8"
-      >
-        Learning Resources For Kids
-      </div>
-
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8 items-stretch xs:px-[18vw] sm:px-[5vw] md:px-[8vw] mmd:px-[12vw] lg:px-[6vw] xl:px-[12vw] 2xl:px-[20vw]"
-      >
-        <div class="card border border-red-500">
-          <img
-            src="/images/wudu-kids.png"
-            alt="wudu for kids"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Learn to make wudu with dua
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <NuxtLink
-                to="https://youtu.be/LZWe0Xh-Hfc?feature=shared"
-                target="_blank"
-              >
-                <button class="btn btn-sm btn-primary">
-                  Learn Now <img src="/icons/arrow-right.svg" />
-                </button>
-              </NuxtLink>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/praying-kids.png"
-            alt="prayer for kids"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">Learn to Pray salah</div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <NuxtLink
-                to="https://youtu.be/XG35X4fMmoc?feature=shared"
-                target="_blank"
-              >
-                <button class="btn btn-sm btn-primary">
-                  Learn Now <img src="/icons/arrow-right.svg" />
-                </button>
-              </NuxtLink>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/alphabet-kids.png"
-            alt="arabic alphabet"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Learn the Arabic alphabet
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <NuxtLink
-                to="https://youtu.be/mEwMPZVayG4?feature=shared"
-                target="_blank"
-              >
-                <button class="btn btn-sm btn-primary">
-                  Learn Now <img src="/icons/arrow-right.svg" />
-                </button>
-              </NuxtLink>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/prophet-kids.png"
-            alt="stories of prophet"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">Stories of the Prophets</div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <NuxtLink
-                to="https://youtu.be/lZu173pTldI?feature=shared"
-                target="_blank"
-                ><button class="btn btn-sm btn-primary">
-                  Learn Now <img src="/icons/arrow-right.svg" /></button
-              ></NuxtLink>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/questions-kids.png"
-            alt="why pray alot?"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Got questions about why Muslims pray 5x per day and more?
-            </div>
-            <div class="card-actions justify-end pt-4 mt-auto">
-              <NuxtLink
-                to="https://youtu.be/pCJ_FrVqscs?si=VNmaILpDneWT2AzP"
-                target="_blank"
-                ><button class="btn btn-sm btn-primary">
-                  Learn Now <img src="/icons/arrow-right.svg" /></button
-              ></NuxtLink>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <div class="mb-8">
       <div
@@ -157,7 +34,7 @@
                   class="flex gap-2 text-sm font-semibold ring-2 ring-slate-600 pl-2 pr-2 pt-1 pb-1 rounded-sm"
                 >
                   <span> {{ entry.slug[index] }} </span>
-                  <img src="/icons/arrow-right.svg" />
+                  <img src="/icons/arrow-right.svg" alt="arrow-right" />
                 </div>
               </NuxtLink>
             </div>
@@ -168,128 +45,10 @@
           <button
             class="btn normal-case w-full h-fit p-4 leading-5 bg-amber-100"
           >
-            {{ entry.title }} <img src="/icons/arrow-right.svg" />
+            {{ entry.title }} <img src="/icons/arrow-right.svg" alt="arrow-right" />
           </button>
         </NuxtLink>
       </div>
-
-      <!-- <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8 items-stretch xs:px-[18vw] sm:px-[5vw] md:px-[8vw] mmd:px-[12vw] lg:px-[6vw] xl:px-[12vw] 2xl:px-[20vw]"
-      >
-        <div class="card border border-red-500">
-          <img
-            src="/images/wudu-adult.png"
-            alt="wudu for adults"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Learn to make wudu with dua
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/praying-kids.png"
-            alt="prayer for kids"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">Learn to pray</div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/alphabet-kids.png"
-            alt="arabic alphabet"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              More on prayers including ghusl visit
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/prophet-kids.png"
-            alt="stories of prophet"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Islamic research and more about Islam at Yaqeen Institute
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <NuxtLink to="https://youtu.be/lZu173pTldI?feature=shared"
-                ><button class="btn btn-sm btn-primary">
-                  Learn Now <img src="/icons/arrow-right.svg" /></button
-              ></NuxtLink>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/questions-kids.png"
-            alt="why pray alot?"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Learn about the companions of Prophet Muhammad (SAW)
-            </div>
-            <div class="card-actions justify-end pt-4 mt-auto">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/questions-kids.png"
-            alt="why pray alot?"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              For more Islamic educational content
-            </div>
-            <div class="card-actions justify-end pt-4 mt-auto">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-        
-      </div> -->
     </div>
 
     <div class="mb-16">
@@ -309,128 +68,10 @@
           <button
             class="btn normal-case w-full h-fit p-4 leading-5 bg-amber-100"
           >
-            {{ entry.title }} <img src="/icons/arrow-right.svg" />
+            {{ entry.title }} <img src="/icons/arrow-right.svg" alt="arrow-right" />
           </button>
         </NuxtLink>
       </div>
-
-      <!-- <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8 items-stretch xs:px-[18vw] sm:px-[5vw] md:px-[8vw] mmd:px-[12vw] lg:px-[6vw] xl:px-[12vw] 2xl:px-[20vw]"
-      >
-        <div class="card border border-red-500">
-          <img
-            src="/images/wudu-adult.png"
-            alt="wudu for adults"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Learn to make wudu with dua
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/praying-kids.png"
-            alt="prayer for kids"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">Learn to pray</div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/alphabet-kids.png"
-            alt="arabic alphabet"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              More on prayers including ghusl visit
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/prophet-kids.png"
-            alt="stories of prophet"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Islamic research and more about Islam at Yaqeen Institute
-            </div>
-            <div class="card-actions justify-end mt-auto pt-4">
-              <NuxtLink to="https://youtu.be/lZu173pTldI?feature=shared"
-                ><button class="btn btn-sm btn-primary">
-                  Learn Now <img src="/icons/arrow-right.svg" /></button
-              ></NuxtLink>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/questions-kids.png"
-            alt="why pray alot?"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              Learn about the companions of Prophet Muhammad (SAW)
-            </div>
-            <div class="card-actions justify-end pt-4 mt-auto">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card border border-red-500">
-          <img
-            src="/images/questions-kids.png"
-            alt="why pray alot?"
-            loading="lazy"
-            class="rounded-t-2xl h-[200px]"
-          />
-          <div class="card-body">
-            <div class="font-semibold text-center">
-              For more Islamic educational content
-            </div>
-            <div class="card-actions justify-end pt-4 mt-auto">
-              <button class="btn btn-sm btn-primary">
-                Learn Now <img src="/icons/arrow-right.svg" />
-              </button>
-            </div>
-          </div>
-        </div>
-        
-      </div> -->
     </div>
   </div>
 </template>
@@ -503,6 +144,15 @@ const adults = [
     link: "https://muslimcentral.com/ ",
   },
 ];
+
+useSeoMeta({
+  title: "Learn Islam with Aruba Islamic Foundation",
+  ogTitle: "Learn Islam with Aruba Islamic Foundation",
+  description:
+    "Learn about Islam with our educational resources, for both kids and adults. Learn to pray, make dua, learn arabic, find research and more",
+  ogDescription:
+    "Learn about Islam with our educational resources, for both kids and adults.",
+});
 </script>
 
 <style lang="scss" scoped></style>
