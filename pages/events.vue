@@ -3,10 +3,9 @@
     <!-- <ContentDoc path="/events/masjidopening" class="masjid prose p-10">
   </ContentDoc> -->
     <ContentRenderer :value="masjidOpeningData">
-      <ContentRendererMarkdown
-        :value="masjidOpeningData"
-        class="prose prose-base max-w-none w-[90%] md:w-[60%] shadow-xl mx-auto mt-12 mb-16 p-12" 
-      ></ContentRendererMarkdown>
+      <ContentRendererMarkdown :value="masjidOpeningData"
+        class="prose prose-base max-w-none w-[90%] md:w-[60%] shadow-xl mx-auto mt-12 mb-16 p-12">
+      </ContentRendererMarkdown>
     </ContentRenderer>
 
     <div class="pt-16 pb-24 bg-yellow-200">
@@ -14,40 +13,22 @@
 
       <div class="flex dropdown justify-center mb-8">
         <label tabindex="0" class="btn m-1 bg-primary">Filter Events</label>
-        <ul
-          tabindex="0"
-          class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
-          ref="filter"
-        >
-          <li
-            class="p-2 hover:cursor-pointer hover:bg-base-300"
-            @click="sortPast"
-          >
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52" ref="filter">
+          <li class="p-2 hover:cursor-pointer hover:bg-base-300" @click="sortPast">
             Past Events
           </li>
-          <li
-            class="p-2 hover:cursor-pointer hover:bg-base-300"
-            @click="sortUpcoming"
-          >
+          <li class="p-2 hover:cursor-pointer hover:bg-base-300" @click="sortUpcoming">
             Upcoming Events
           </li>
-          <li
-            class="p-2 hover:cursor-pointer hover:bg-base-300"
-            @click="sortAll"
-          >
+          <li class="p-2 hover:cursor-pointer hover:bg-base-300" @click="sortAll">
             All Events
           </li>
         </ul>
       </div>
 
       <div
-        class="grid auto-cols-max grid-cols-1 xs:w-[80%] sm:w-[60%] md:grid-cols-2 md:w-[80%] mmd:w-[70%] lg:grid-cols-3 lg:w-[80%] xl:w-[60%] mx-auto gap-8 px-8 items-stretch"
-      >
-        <div
-          v-for="article in articles"
-          :key="article.title"
-          class="card shadow-lg bg-white"
-        >
+        class="grid auto-cols-max grid-cols-1 xs:w-[80%] sm:w-[60%] md:grid-cols-2 md:w-[80%] mmd:w-[70%] lg:grid-cols-3 lg:w-[80%] xl:w-[60%] mx-auto gap-8 px-8 items-stretch">
+        <div v-for="article in articles" :key="article.title" class="card shadow-lg bg-white">
           <div class="card-body text-center justify-center">
             <div class="card-title justify-center mb-auto pb-2">
               {{ article.title }}
@@ -60,8 +41,8 @@
             <div class="card-actions justify-end pt-4">
               <NuxtLink :to="article._path">
                 <button class="btn btn-primary btn-sm">
-                  Read <img src="/icons/arrow-right.svg" /></button
-              ></NuxtLink>
+                  Read <img src="/icons/arrow-right.svg" /></button>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -149,10 +130,11 @@ function sortAll() {
 }
 
 useSeoMeta({
-  title: "Events by Aruba Islamic Foundation",
-  ogTitle: "Events hosted by Aruba Islamic Foundation",
+  title: "Events by Stichting Aruba Islamic Foundation",
+  ogTitle: "Events hosted by Stichting Aruba Islamic Foundation",
   description: "Follow our events blog to stay updated with the events happening in our masjid and community",
   ogDescription: "Follow our events blog to stay updated with the events happening in our masjid and community",
+  ogImage: "/images/hero.jpg",
 });
 </script>
 

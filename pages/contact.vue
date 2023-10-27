@@ -91,10 +91,11 @@
 
 <script setup>
 useSeoMeta({
-  title: "Contact Aruba Islamic Foundation",
-  ogTitle: "Contact the Aruba Islamic Foundation",
+  title: "Contact the Stichting Aruba Islamic Foundation",
+  ogTitle: "Contact the Stichting Aruba Islamic Foundation",
   description: "Contact us for inquiries, support or services. Get in touch with us to discuss your needs and questions.",
   ogDescription: "Contact us for inquiries, support or services. Get in touch with us to discuss your needs and questions.",
+  ogImage: "/images/hero.jpg",
 });
 </script>
 

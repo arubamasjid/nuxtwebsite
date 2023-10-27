@@ -78,7 +78,17 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+useSeoMeta({
+  title: "History - About the Stichting Aruba Islamic Foundation",
+  ogTitle: "History of the Stichting Aruba Islamic Foundation",
+  description: "See where we came from, and how we got here today. Let's take you through the history of our foundation",
+  ogDescription: "History of the Stichting Aruba Islamic Foundation.",
+  ogImage: "/images/hero.jpg",
+});
+
+</script>
 
 <style scoped>
 @media only screen and (max-width: 639px) {
