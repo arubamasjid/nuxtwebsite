@@ -10,7 +10,7 @@
       </div>
       <div class="p-2">
         <span class="font-semibold sm:text-lg"> Masjid address </span>
-        +297-735-5471 or +297-641-8361
+        Sabana Basora 32J
       </div>
       <div class="p-2">
         <span class="font-semibold sm:text-lg">
@@ -28,47 +28,63 @@
       Quick Links
     </div>
     <div
-      class="grid gap-4 grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 xl:grid-cols-8 px-4 md:px-8 mmd:px-16 lg:px-24 mb-28"
-    >
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/telephone.svg" alt="telephone" width="40" />
-        <div>Phone 1</div>
-      </div>
+      class="grid gap-4 grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 xl:grid-cols-8 px-4 md:px-8 mmd:px-16 lg:px-24 mb-28">
 
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/mobile.svg" alt="mobile" width="30" />
-        <div>Phone 2</div>
-      </div>
+      <NuxtLink to="tel:+2977355471" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/telephone.svg" alt="telephone" width="40" />
+          <div>Phone 1</div>
+        </div>
+      </NuxtLink>
 
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/email.svg" alt="email" width="40" />
-        <div>Email</div>
-      </div>
+      <NuxtLink to="tel:+2976418361" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/mobile.svg" alt="mobile" width="30" />
+          <div>Phone 2</div>
+        </div>
+      </NuxtLink>
 
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/facebook.svg" alt="facebook" width="40" />
-        <div>Facebook</div>
-      </div>
+      <NuxtLink to="mailto:aruba.islamic.foundation@gmail.com" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/email.svg" alt="email" width="40" />
+          <div>Email</div>
+        </div>
+      </NuxtLink>
 
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/maps.svg" alt="maps" width="35" />
-        <div>Masjid</div>
-      </div>
+      <NuxtLink to="https://www.facebook.com/arubamuslims?mibextid=nW3QTL" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/facebook.svg" alt="facebook" width="40" />
+          <div>Facebook</div>
+        </div>
+      </NuxtLink>
 
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/maps.svg" alt="maps" width="35" />
-        <div>Foundation</div>
-      </div>
+      <NuxtLink to="https://www.google.com/maps/?q=12.474870940788554,-69.9568012647943" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/maps.svg" alt="maps" width="35" />
+          <div>Foundation</div>
+        </div>
+      </NuxtLink>
 
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/whatsapp.svg" alt="whatsapp" width="45" />
-        <div>WhatsApp 1</div>
-      </div>
+      <NuxtLink to="https://www.google.com/maps/?q=12.474746543756178,-69.9565746181403" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/maps.svg" alt="maps" width="35" />
+          <div>Masjid</div>
+        </div>
+      </NuxtLink>
 
-      <div class="flex flex-col justify-center items-center text-sm p-4">
-        <img src="/icons/whatsapp.svg" alt="whatsapp" width="45" />
-        <div>Whatsapp 2</div>
-      </div>
+      <NuxtLink to="https://wa.me/+2977355471" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/whatsapp.svg" alt="whatsapp" width="45" />
+          <div>WhatsApp 1</div>
+        </div>
+      </NuxtLink>
+
+      <NuxtLink to="https://wa.me/+2976418361" target="_blank">
+        <div class="flex flex-col justify-center items-center text-sm p-4 h-full">
+          <img src="/icons/whatsapp.svg" alt="whatsapp" width="45" />
+          <div>Whatsapp 2</div>
+        </div>
+      </NuxtLink>
     </div>
   </div>
 </template>

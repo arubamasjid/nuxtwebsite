@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="">
     <!-- <ContentDoc path="/events/masjidopening" class="masjid prose p-10">
   </ContentDoc> -->
     <ContentRenderer :value="masjidOpeningData">
       <ContentRendererMarkdown
         :value="masjidOpeningData"
-        class="prose prose-base max-w-none w-[90%] md:w-[60%] shadow-xl mx-auto mt-12 mb-16 p-12"
+        class="prose prose-base max-w-none w-[90%] md:w-[60%] shadow-xl mx-auto mt-12 mb-16 p-12" 
       ></ContentRendererMarkdown>
     </ContentRenderer>
 

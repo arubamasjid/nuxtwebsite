@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div class="h-[70vh]">
     <!-- <ContentDoc class="prose p-6 masjid"></ContentDoc> -->
     <ContentRenderer :value="data">
       <template #empty>
@@ -11,7 +11,7 @@
       >
       </ContentRendererMarkdown>
     </ContentRenderer>
-  </main>
+  </div>
 </template>
 
 <script setup>
