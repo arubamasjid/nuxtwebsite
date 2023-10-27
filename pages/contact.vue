@@ -28,7 +28,7 @@
       Quick Links
     </div>
     <div
-      class="grid gap-4 grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 xl:grid-cols-8 px-4 md:px-8 mmd:px-16 lg:px-24 mb-28">
+      class="grid gap-4 grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 xl:grid-cols-8 px-4 md:px-8 mmd:px-16 lg:px-24 mb-48">
 
       <NuxtLink to="tel:+2977355471" target="_blank">
         <div class="flex flex-col justify-center items-center text-sm p-4 h-full">

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-16">
     <div class="image-grid h-fit gap-4 p-4 xs:p-8">
       <div class="item-1 flex"><img src="/images/about/1.jpeg" width="100%" height="100%"></div>
       <div class="item-2 flex"><img src="/images/about/2.jpeg" width="100%" height="100%"></div>
