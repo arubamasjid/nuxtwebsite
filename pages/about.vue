@@ -1,11 +1,11 @@
 <template>
   <div class="mb-16">
     <div class="image-grid h-fit gap-4 p-4 xs:p-8">
-      <div class="item-1 flex"><img src="/images/about/1.jpeg" width="100%" height="100%"></div>
-      <div class="item-2 flex"><img src="/images/about/2.jpeg" width="100%" height="100%"></div>
-      <div class="item-3 flex"><img src="/images/about/3.jpeg" width="100%" height="100%"></div>
-      <div class="item-4 flex"><img src="/images/about/4-alt.jpeg" width="100%" height="100%"></div>
-      <div class="item-5 flex"><img src="/images/about/7.jpeg" width="100%" height="100%"></div>
+      <div class="item-1 flex"><img src="/images/about/1.jpeg" alt="building1" width="100%" height="100%"></div>
+      <div class="item-2 flex"><img src="/images/about/2.jpeg" alt="building2" width="100%" height="100%"></div>
+      <div class="item-3 flex"><img src="/images/about/3.jpeg" alt="building3" width="100%" height="100%"></div>
+      <div class="item-4 flex"><img src="/images/about/4-alt.jpeg" alt="building4" width="100%" height="100%"></div>
+      <div class="item-5 flex"><img src="/images/about/7.jpeg" alt="building5" width="100%" height="100%"></div>
     </div>
 
     <div class="px-8">
@@ -29,8 +29,8 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 xs:p-8">
-      <div class="flex"><img src="/images/about/5.jpg" width="100%" height="80%"></div>
-      <div class="flex"><img src="/images/about/6.jpg" width="100%" height="100%"></div>
+      <div class="flex"><img src="/images/about/5.jpg" alt="building6" width="100%" height="80%"></div>
+      <div class="flex"><img src="/images/about/6.jpg" alt="building7" width="100%" height="100%"></div>
     </div>
 
     <div>
@@ -38,7 +38,7 @@
       <div class="grid grid-cols-1 xs:grid-cols-2 xs:grid-rows-2 md:grid-cols-4 md:grid-rows-none">
         <div class="px-8 py-8">
           <div class="pb-2 w-20">
-            <img src="/images/about/peace.svg" width="100%">
+            <img src="/images/about/peace.svg" alt="peace" width="100%">
           </div>
           <div class="font-bold text-lg pb-2">Promoting Peace</div>
           Our mosque serves as a hub for peaceful dialogue, understanding, and community outreach, where people from all
@@ -46,7 +46,7 @@
         </div>
         <div class="px-8 py-8">
           <div class="pb-2 w-20">
-            <img src="/images/about/growth.svg" width="100%">
+            <img src="/images/about/growth.svg" alt="growth" width="100%">
           </div>
           <div class="font-bold text-lg pb-2">Spiritual Growth
           </div>
@@ -55,7 +55,7 @@
         </div>
         <div class="px-8 py-8">
           <div class="pb-2 w-20">
-            <img src="/images/about/community.svg" width="100%">
+            <img src="/images/about/community.svg" alt="community" width="100%">
           </div>
           <div class="font-bold text-lg pb-2">
             Community Engagement
@@ -65,7 +65,7 @@
         </div>
         <div class="px-8 py-8">
           <div class="pb-2 w-20">
-            <img src="/images/about/interfaith.svg" width="100%">
+            <img src="/images/about/interfaith.svg" alt="interfaith" width="100%">
           </div>
           <div class="font-bold text-lg pb-2">
             Interfaith Dialogue
