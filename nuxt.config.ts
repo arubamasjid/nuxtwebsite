@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "nuxt-simple-sitemap",
     "nuxt-security",
+    'nuxt-gtag'
   ],
   css: ["~/assets/main.css"],
   postcss: {
@@ -35,4 +36,7 @@ export default defineNuxtConfig({
       contentSecurityPolicy: false,
     },
   },
+  gtag: {
+    id: 'G-4KREGRGENY'
+  }
 });

@@ -17,6 +17,7 @@
     "autoprefixer": "^10.4.14",
     "daisyui": "^3.5.1",
     "nuxt": "^3.6.5",
+    "nuxt-gtag": "^1.1.1",
     "nuxt-security": "^0.14.4",
     "nuxt-simple-sitemap": "^3.3.5",
     "postcss": "^8.4.27",
