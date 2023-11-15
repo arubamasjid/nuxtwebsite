@@ -3,7 +3,7 @@
     <div class="my-auto">
       <p class="text-lg">
         Stichting Aruba Islamic Foundation <br />
-        since 2002
+        since 2012
       </p>
     </div>
     <div>

@@ -6,17 +6,11 @@
 
     <div class="card-actions mx-auto">
       <div class="join join-vertical sm:join-horizontal">
-        <button
-          @click="lastDay"
-          class="btn join-item bg-primary mb-2 sm:mr-2 sm:mb-2"
-        >
+        <button @click="lastDay" class="btn join-item bg-primary mb-2 sm:mr-2 sm:mb-2">
           <img src="/icons/calendar-backarrow.svg" alt="back-arrow" class="w-6 sm:w-8" />
           <span class="text-xs sm:text-md"> Previous Day</span>
         </button>
-        <button
-          @click="nextDay"
-          class="btn join-item bg-primary mt-2 sm:ml-2 sm:mt-0"
-        >
+        <button @click="nextDay" class="btn join-item bg-primary mt-2 sm:ml-2 sm:mt-0">
           <span class="text-xs sm:text-md"> Following Day</span>
           <img src="/icons/calendar-forwardarrow.svg" alt="forward-arrow" class="w-6 sm:w-8" />
         </button>
@@ -29,9 +23,7 @@
         </div>
 
         <template #fallback>
-          <span
-            class="loading loading-spinner text-primary mx-auto my-auto pt-64 w-12"
-          ></span>
+          <span class="loading loading-spinner text-primary mx-auto my-auto pt-64 w-12"></span>
         </template>
 
         <table class="table table-sm text-center">
@@ -150,9 +142,15 @@
 
 import { Coordinates, CalculationMethod, PrayerTimes } from "adhan";
 
-const coordinates = new Coordinates(12.510052, -70.009354);
-const params = CalculationMethod.MoonsightingCommittee();
+const coordinates = new Coordinates(12.474849765498409, -69.95656605718005);
+const params = CalculationMethod.MuslimWorldLeague();
 const date = ref(new Date());
+const options = {
+  timeZone: 'America/Puerto_Rico',
+};
+
+console.log('INTL',new Intl.DateTimeFormat('UTC', options).format(date.value), date.value);
+
 const prayerTimes = ref(new PrayerTimes(coordinates, date.value, params));
 const count = ref(0);
 
