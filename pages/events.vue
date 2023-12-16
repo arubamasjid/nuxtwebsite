@@ -2,11 +2,19 @@
   <div class="">
     <!-- <ContentDoc path="/events/masjidopening" class="masjid prose p-10">
   </ContentDoc> -->
-    <ContentRenderer :value="masjidOpeningData">
+
+    <!-- <ContentRenderer :value="masjidOpeningData">
       <ContentRendererMarkdown :value="masjidOpeningData"
         class="prose prose-base max-w-none w-[90%] md:w-[60%] shadow-xl mx-auto mt-12 mb-16 p-12">
       </ContentRendererMarkdown>
+    </ContentRenderer> -->
+
+    <ContentRenderer :value="query">
+      <ContentRendererMarkdown :value="query"
+        class="prose prose-base max-w-none w-[90%] md:w-[60%] shadow-xl mx-auto mt-12 mb-16 p-12">
+      </ContentRendererMarkdown>
     </ContentRenderer>
+
 
     <div class="pt-16 pb-24 bg-yellow-200">
       <div class="text-3xl font-bold pb-12 text-center">Browse Events</div>
@@ -59,15 +67,21 @@
 </template>
 
 <script setup>
-const getMasjidOpeningQuery = await useAsyncData("masjidopening", () =>
+// const getMasjidOpeningQuery = await useAsyncData("masjidopening", () =>
+//   queryContent("events")
+//     .where({ title: "Masjid Official Opening Event" })
+//     .findOne()
+// );
+
+// const masjidOpeningData = getMasjidOpeningQuery.data;
+
+const getZoomClasses = await useAsyncData("classes", () =>
   queryContent("events")
-    .where({ title: "Masjid Official Opening Event" })
+    .where({ title: "Zoom classes and lectures" })
     .findOne()
 );
 
-const masjidOpeningData = getMasjidOpeningQuery.data;
-
-console.log("masjid data", masjidOpeningData);
+const query = getZoomClasses.data
 
 const getAllArticlesQuery = await useAsyncData("allarticles", () =>
   queryContent("events").sort({ date: -1 }).find()
