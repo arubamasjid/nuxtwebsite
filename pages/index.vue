@@ -29,7 +29,7 @@
     </div>
 
 
-    <div class="hero h-fit pb-[10vh] p-8 flex flex-col bg-primary">
+    <div class="hero pb-[10vh] p-8 flex flex-col bg-primary">
       <div class="text-3xl font-bold m-6">Our History</div>
       <div class="hero-content flex-col lg:flex-row">
         <img src="/images/history-img.jpeg" alt="history"
@@ -46,10 +46,46 @@
     </div>
 
     <div class="h-fit p-8 pb-20 bg-base-200">
-      <div class="text-3xl font-bold text-center m-6">Our Services</div>
 
-      <div class="flex flex-col w-[50%] mb-8 gap-4 mx-auto md:flex-row md:flex-wrap md:w-[100%] md:justify-center">
-        <div class="card bg-primary mt-8 md:mr-4 md:ml-4 w-[75vw] sm:max-w-sm max-h-[400px] self-center">
+      <div class="text-3xl font-bold text-center m-6 mb-12">Our Services</div>
+
+      <div class="flex flex-col justify-center items-center mb-8 gap-x-12 gap-y-8 lg:flex-row">
+
+        <div class="w-full max-w-xs overflow-hidden bg-white rounded-md mx-5">
+          <img class="object-cover w-full h-56" src="/images/edu.svg" alt="education" loading="lazy">
+
+          <div class="py-5 text-center">
+            <p class="block text-xl font-bold text-gray-800" tabindex="0" role="link">Educational
+              Activities</p>
+          </div>
+        </div>
+
+        <div class="w-full max-w-xs overflow-hidden bg-white rounded-md">
+          <img class="object-cover w-full h-56" src="/images/community-service.svg" alt="community-service"
+            loading="lazy">
+
+          <div class="py-5 text-center">
+            <p class="block text-xl font-bold text-gray-800" tabindex="0" role="link">Help to those in need</p>
+          </div>
+        </div>
+
+        <div class="w-full max-w-xs overflow-hidden bg-white rounded-md">
+          <img class="object-cover w-full h-56" src="/images/social.svg" alt="social" loading="lazy">
+
+          <div class="py-5 text-center">
+            <p class="block text-xl font-bold text-gray-800" tabindex="0" role="link">Social Activities</p>
+          </div>
+        </div>
+
+        <div class="w-full max-w-xs overflow-hidden bg-white rounded-md">
+          <img class="object-cover w-full h-56" src="/images/dawah.svg" alt="dawah" loading="lazy">
+
+          <div class="py-5 text-center">
+            <p class="block text-xl font-bold text-gray-800" tabindex="0" role="link">Progressive da'wah and culture</p>
+          </div>
+        </div>
+
+        <!-- <div class="card bg-primary mt-8 md:mr-4 md:ml-4 w-[75vw] sm:max-w-sm max-h-[400px] self-center">
           <img src="/images/edu.svg" alt="education" loading="lazy" />
 
           <div class="card-body">
@@ -83,11 +119,13 @@
             <div class="card-title justify-center">Help to those in need</div>
             <p class="text-center">Community service to those in need</p>
           </div>
-        </div>
+        </div> -->
+
       </div>
+
     </div>
 
-    <div class="h-fit p-8 pb-20">
+    <!-- <div class="h-fit p-8 pb-10">
       <div class="text-3xl font-bold text-center m-6 pb-12">Explore Islam</div>
 
       <div class="flex flex-col lg:flex-row justify-center items-center lg:mx-auto lg:p-8">
@@ -135,8 +173,37 @@
         </div>
 
       </div>
+    </div> -->
+
+    <div class="p-8 pb-20 bg-base-100">
+      <div class="flex justify-center">
+
+        <section class="bg-white">
+          <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
+            <h2 class="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl ">
+              Help us sustain our <span class="text-primary">masjid costs</span>
+            </h2>
+
+            <p class="max-w-4xl mt-6 text-center text-gray-500 ">
+              Some of our monthly costs include, utilities and water, land tax, Imam's monthly salary, building
+              maintenance, and insurance. Any help will be greatly appreciated.
+            </p>
+
+            <div class="inline-flex w-full mt-6 sm:w-auto">
+              <NuxtLink to="https://www.launchgood.com/campaign/support_monthly__yearly_cost#!/" target="_blank">
+                <button class="inline-flex items-center justify-center w-full px-6 py-2 rounded-md bg-primary"> Make a
+                  contribution
+                </button>
+              </NuxtLink>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
     </div>
-    
+
   </div>
 </template>
 
